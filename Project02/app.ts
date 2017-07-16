@@ -1,16 +1,16 @@
 // string
-let myName = 'Max';
+let myName : string = 'Max';
 // myName = 1;
 
 // number
-let age = 33;
+let age : number = 33;
 // age = 'Max';
 
 // boolean
-let hasHobbies = false;
+let hasHobbies : boolean = false;
 // hasHobbies = 1;
 
-// assign types
-let myRealAge;
+// assign types explicitly
+let myRealAge : number;
 myRealAge = 33;
-myRealAge = 'Max';
+// myRealAge = 'Max';
