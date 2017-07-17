@@ -22,3 +22,5 @@ console.log(typeof bunchOfStuff);
 var hobbies = ["Cooking", "Sports"];
 hobbies = ["Some hobby"];
 console.log(hobbies[0]);
+// tuple
+var address = ["Superstreet", 99];
