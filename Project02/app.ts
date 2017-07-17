@@ -62,3 +62,17 @@ function multiply(value1: number, value2: number): number {
     return value1 * value2;
 }
 console.log(multiply(2, 10));
+
+// function types - no criteria.
+let myMultiply;
+myMultiply = sayHello;
+myMultiply();
+myMultiply = multiply;
+console.log(myMultiply(5, 2));
+
+// function types
+let myMultiply1: (va1: number, val2: number) => number;
+// myMultiply1 = sayHello;
+// myMultiply1();
+myMultiply1 = multiply;
+console.log(myMultiply1(15, 3));

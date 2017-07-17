@@ -53,3 +53,15 @@ function multiply(value1, value2) {
     return value1 * value2;
 }
 console.log(multiply(2, 10));
+// function types - no criteria.
+var myMultiply;
+myMultiply = sayHello;
+myMultiply();
+myMultiply = multiply;
+console.log(myMultiply(5, 2));
+// function types
+var myMultiply1;
+// myMultiply1 = sayHello;
+// myMultiply1();
+myMultiply1 = multiply;
+console.log(myMultiply1(15, 3));
