@@ -29,3 +29,12 @@ console.log(hobbies[0]);
 
 // tuple
 let address: [string, number] = ["Superstreet", 99];
+
+// enum
+enum Color {
+    Gray,   // 0
+    Green = 100,  // 100
+    Blue    // 101
+}
+let myColor: Color = Color.Blue;
+console.log(myColor);
