@@ -38,3 +38,13 @@ var car = "BMW";
 console.log(car);
 car = { brand: "BMW", series: 3 };
 console.log(car);
+// functions
+function returnMyName() {
+    return myName;
+}
+console.log(returnMyName());
+// void
+function sayHello() {
+    console.log("Hello world!");
+}
+sayHello();

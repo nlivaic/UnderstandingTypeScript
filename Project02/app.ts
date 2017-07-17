@@ -44,3 +44,15 @@ let car: any = "BMW";
 console.log(car);
 car = {brand: "BMW", series: 3};
 console.log(car);
+
+// functions
+function returnMyName(): string {
+    return myName;
+}
+console.log(returnMyName());
+
+// void
+function sayHello(): void {
+    console.log("Hello world!");
+}
+sayHello();
