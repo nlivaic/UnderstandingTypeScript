@@ -48,3 +48,8 @@ function sayHello() {
     console.log("Hello world!");
 }
 sayHello();
+// argument types
+function multiply(value1, value2) {
+    return value1 * value2;
+}
+console.log(multiply(2, 10));
